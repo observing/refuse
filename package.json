@@ -1,0 +1,30 @@
+{
+  "name": "refuse",
+  "version": "1.0.0",
+  "description": "A set of Components that can be shared between React and React-Native",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha test.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/3rd-Eden/refuse.git"
+  },
+  "keywords": [
+    "React",
+    "Reactjs",
+    "React-Native",
+    "Native",
+    "Component",
+    "Components",
+    "Elements",
+    "Reactive",
+    "Shared"
+  ],
+  "author": "Arnout Kazemier",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/3rd-Eden/refuse/issues"
+  },
+  "homepage": "https://github.com/3rd-Eden/refuse#readme"
+}
