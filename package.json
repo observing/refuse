@@ -8,7 +8,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/3rd-Eden/refuse.git"
+    "url": "git://github.com/observing/refuse.git"
   },
   "keywords": [
     "React",
@@ -24,7 +24,7 @@
   "author": "Arnout Kazemier",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/3rd-Eden/refuse/issues"
+    "url": "https://github.com/observing/refuse/issues"
   },
-  "homepage": "https://github.com/3rd-Eden/refuse#readme"
+  "homepage": "https://github.com/observing/refuse#readme"
 }
