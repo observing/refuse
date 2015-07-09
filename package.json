@@ -4,7 +4,7 @@
   "description": "A set of Components that can be shared between React and React-Native",
   "main": "index.js",
   "scripts": {
-    "test": "mocha test.js"
+    "test": "mochify --transform babelify --reporter spec ./test.js"
   },
   "repository": {
     "type": "git",
@@ -26,5 +26,12 @@
   "bugs": {
     "url": "https://github.com/observing/refuse/issues"
   },
-  "homepage": "https://github.com/observing/refuse#readme"
+  "homepage": "https://github.com/observing/refuse#readme",
+  "devDependencies": {
+    "assume": "1.2.x",
+    "babelify": "6.1.x",
+    "mochify": "2.10.x",
+    "pre-commit": "1.0.x",
+    "react": "0.13.x"
+  }
 }
