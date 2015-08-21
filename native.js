@@ -11,11 +11,11 @@ export default * from 'react-native';
 // make sure that you also update/add the component in the `native.js` file for
 // React native.
 //
-export {Interact} from './interact/native.js';
-export {Checkbox} from './checkbox/native.js';
-export {Storage} from './storage/native.js';
-export {Button} from './button/native.js';
-export {Input} from './input/native.js';
-export {Image} from './image/native.js';
-export {Layer} from './layer/native.js';
-export {Text} from './text/native.js';
+export {Interact} from './components/interact/native.js';
+export {Checkbox} from './components/checkbox/native.js';
+export {Storage}  from './components/storage/native.js';
+export {Button}   from './components/button/native.js';
+export {Input}    from './components/input/native.js';
+export {Image}    from './components/image/native.js';
+export {Layer}    from './components/layer/native.js';
+export {Text}     from './components/text/native.js';
