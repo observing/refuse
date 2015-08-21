@@ -2,9 +2,10 @@
   "name": "refuse",
   "version": "1.0.0",
   "description": "A set of Components that can be shared between React and React-Native",
-  "main": "index.js",
+  "main": "react.js",
   "scripts": {
-    "test": "mochify --transform babelify --reporter spec ./test.js"
+    "test": "mochify --transform babelify --reporter spec ./test.js",
+    "install": "install.js"
   },
   "repository": {
     "type": "git",
@@ -29,9 +30,12 @@
   "homepage": "https://github.com/observing/refuse#readme",
   "devDependencies": {
     "assume": "1.2.x",
-    "babelify": "6.1.x",
-    "mochify": "2.10.x",
-    "pre-commit": "1.0.x",
+    "babelify": "6.2.x",
+    "mochify": "2.13.x",
+    "pre-commit": "1.1.x",
     "react": "0.13.x"
+  },
+  "dependencies": {
+    "find-package-json": "1.0.x"
   }
 }
