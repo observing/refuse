@@ -42,6 +42,11 @@ while (true) {
   if (data.done || data.value.refuse === true) break;
   if (!('react-native' in (data.value.dependencies || {}))) continue;
 
+  console.log('refuse:');
+  console.log('refuse: Found react-native dependency in `'+ data.value.name +'`');
+  console.log('refuse: The Refuse React Component Library will now run in react-native mode.');
+  console.log('refuse:');
+
   //
   // We've found react-native in the dependencies tree, so assume that we're
   // being consumed by native application.
