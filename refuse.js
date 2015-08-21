@@ -9,8 +9,8 @@
  */
 export function assign(...args) {
   return args.filter(Boolean).reduce(function merger(result, obj) {
-    Object.keys(obj).forEach((key) => {
-      if (obj[key] !== undefined) {
+    Object.keys(obj).forEach(function each(key) {
+      if ('undefined' !== typeof obj[key]) {
         result[key] = obj[key];
       }
     });
