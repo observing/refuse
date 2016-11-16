@@ -29,11 +29,11 @@
   },
   "homepage": "https://github.com/observing/refuse#readme",
   "devDependencies": {
-    "assume": "1.2.x",
-    "babelify": "6.2.x",
-    "mochify": "2.13.x",
+    "assume": "~1.4.1",
+    "babelify": "~7.3.0",
+    "mochify": "~2.18.1",
     "pre-commit": "1.1.x",
-    "react": "0.13.x"
+    "react": "~15.4.0"
   },
   "dependencies": {
     "find-package-json": "1.0.x"
